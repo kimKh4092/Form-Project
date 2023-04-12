@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+    <h1 class="h1">فرم استخدام</h1>
+    <form class="form" id="form">
+        <div class="q">
+            <input class="input" id="q1" type="text">
+            <label for="q1">:نام</label>
+
+        </div>
+        <div class="q">
+            <input class="input" id="q2" type="text">
+            <label for="q2">:نام خانوادگی</label>
+
+        </div>
+        <div class="q">
+            <input class="input" id="q3" type="text">
+            <label for="q3">:نام پدر</label>
+
+        </div>
+        <div class="q">
+            <input class="input" id="q4" type="text">
+            <label for="q4">:شغل</label>
+
+        </div>
+
+        <div class="q">
+            <input class="input" id="q5" type="text">
+            <label for="q5">:محل کار</label>
+
+        </div>
+
+        <div class="q">
+            <input class="input" id="q6" type="text">
+            <label for="q6">:رشته تحصیلی</label>
+
+        </div>
+        <div class="q">
+            <input class="input" id="q7" type="text">
+            <label for="q7">:تلفن تماس</label>
+
+        </div>
+        <div class="q">
+            <input class="input" id="q8" type="text">
+            <label for="q8">:تلفن محل کار</label>
+
+        </div>
+        <div class="q dbt">
+            <select onchange="update()" id="q9" class="dbt-list">
+                <option value="1" class="dbt-items">تمام وقت</option>
+                <option value="2" class="dbt-items">پاره وقت</option>
+                <option value="3" class="dbt=items">پروژه ای</option>
+
+            </select>
+            <label> :نوع همکاری</label>
+
+        </div>
+
+        <div>
+            <button class="submit" type="submit">ثبت</button>
+        </div>
+
+    </form>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
